@@ -1,0 +1,36 @@
+# Local Netlify folder
+.netlify
+# Ignore node_modules directory
+node_modules/
+
+# Ignore any files or directories that are generated during the build process
+dist/
+build/
+out/
+*.log
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore dependencies
+package-lock.json
+yarn.lock
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+*.iml
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore coverage directory
+coverage/
